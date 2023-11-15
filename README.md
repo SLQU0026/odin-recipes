@@ -1,3 +1,3 @@
 # odin-recipes
-Create and build an basic recipe website
+First TOP Sample basic recipe website
 
