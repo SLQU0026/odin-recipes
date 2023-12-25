@@ -3,14 +3,23 @@
     <head>
         <meta charset="UTF-8">
         <title>Simple Odin Recipes Sample Project</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
     </head>
-    <body>
-        <h1>Odin Recipes</h1>
-        <ul>
-            <li><a href="recipes/pancakes.html">Buttermilk Pumpkin Pancake Recipes</a></li>
-            <li><a href="recipes/porkcutlets.html">Breakfast Pork Cutlets</a></li>
-            <li><a href="recipes/buffalobreadsticks.html">Buffalo Chicken breadsticks</a></li>
-        </ul>
-        
+    <body class="background">
+        <div id="home">
+            <h1 id="title">Odin Recipes</h1>
+                <div class="card-recipe">
+                    <a href="recipes/pancakes.html" class="card-title">
+                    <img src="./recipe images/buttermilkpumkinpancakes.jpg" class="recipe-image">Buttermilk Pumpkin Pancake Recipes</a>
+                </div>
+                <div class="card-recipe">
+                    <a href="recipes/porkcutlets.html" class="card-title">
+                    <img src="./recipe images/breakfastporkcutlets.jpg" class="recipe-image">Breakfast Pork Cutlets</a>
+                </div>
+                <div class="card-recipe">
+                    <a href="recipes/buffalobreadsticks.html" class="card-title">
+                    <img src="./recipe images/buffalochickenbreadsticks.jpg" class="recipe-image">Buffalo Chicken breadsticks</a>
+                </div>
+        </div>
     </body>
 </html>

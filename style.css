@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@600&family=Comfortaa&family=Lato:wght@100;300;400&family=Nunito:wght@400;500&family=Open+Sans:wght@600&family=Poppins:wght@100;400;600&family=Rubik:wght@300;400;500;600&display=swap');
+
+* {
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;   
+}
+
+#home {
+    text-align: center;
+}
+
+#title {
+    font-family: "Rubik", sans-serif;
+	font-weight: 600;
+    margin-top: 60px;
+	margin-bottom: 20px;
+	font-size: 100px;
+}
+
+.card-recipe {
+	background: none;
+	display: inline-block;
+	border: 5px solid white;
+	border-radius: 50px;
+	height: 500px;
+	width: 600px;
+	margin-left: 2vw;
+	margin-right: 2vw;
+	margin-top: 2vw;
+	padding: 50px;
+	text-align: center;	
+}
+
+.card-title {
+	width: 10px;
+    margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: justify;
+	line-height: 1.4;
+	font-size: 20px;
+	font-weight: 800;
+    text-align: justify;
+	color: black;
+}
+
+.recipe-image {
+	height: 350px;
+	width: 450px;
+	border-radius: 25px; 
+}
+
+.background {
+	background-color: rgb(232, 212, 165);
+}
+
+.title-recipe {
+	font-size: 80px;
+	/* font-weight: 800; */
+	width: 800px;
+	margin: auto;
+	text-align: left;
+}
+
+#recipe {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.description {
+	width: 800px;
+    margin: auto;
+	text-align: justify;
+	line-height: 1.4;
+    font-size: 20px;
+}
+
+#recipe-desc{
+	font-weight: 800;
+	margin-bottom: 20px;
+}
+
+.img-recipe {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	height: 550px;
+	width: 700px;
+	border-radius: 20px;
+}
